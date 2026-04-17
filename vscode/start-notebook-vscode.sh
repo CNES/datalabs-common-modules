@@ -8,7 +8,7 @@ export PATH=/opt/code-server/bin:$PATH
 export VSCODE_EXTENSIONS=/opt/code-server/extensions
 export NODE_EXTRA_CA_CERTS=/etc/ssl/certs/ca-certificates.crt
 
-VSCODE_EXTENSIONS_DIR=/work/scratch/data/$USER/.vscode/extensions
+VSCODE_EXTENSIONS_DIR=$HOME/.vscode/extensions
 echo "INFO: VSCode extensions folder set up in $VSCODE_EXTENSIONS_DIR"
 mkdir -p $VSCODE_EXTENSIONS_DIR
 echo "INFO: Avoiding extensions auto update by overriding user settings"
